@@ -1,31 +1,57 @@
-/* General page layout */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #121212;
+    color: #ffffff;
 }
 
 header {
     background-color: #1e90ff;
     color: white;
-    padding: 20px;
     text-align: center;
-}
-
-.content {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-.card {
-    background-color: white;
     padding: 20px;
-    width: 30%;
-    margin: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #1c1c1c;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: #222;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -33,7 +59,5 @@ footer {
     background-color: #1e90ff;
     color: white;
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    margin-top: 20px;
 }
